@@ -7,6 +7,12 @@ parameters:
 			path: src/Concerns/FormatsArrays.php
 
 		-
+			message: '#^Call to an undefined static method Modules\\CustomFields\\Models\\CustomField\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/FormatService.php
+
+		-
 			message: '#^Invalid array key type float\.$#'
 			identifier: offsetAccess.invalidOffset
 			count: 1
